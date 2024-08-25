@@ -2,6 +2,9 @@
 
 PowerShell module for retrieving iOS and MacOS feature availability
 
+## Dependencies
+Depends on [UncommonSense.Hap](https://github.com/jhoek/UncommonSense.Hap).
+
 ## Index
 
 | Command | Synopsis |
@@ -63,4 +66,4 @@ Get-MacOSFeatureAvailability [[-Feature] <string[]>] [[-Value] <string[]>] [<Com
     Aliases                      None
     Dynamic?                     false
     Accept wildcard characters?  false
-<div style='font-size:small; color: #ccc'>Generated 25-08-2024 13:17</div>
+<div style='font-size:small; color: #ccc'>Generated 25-08-2024 13:40</div>
