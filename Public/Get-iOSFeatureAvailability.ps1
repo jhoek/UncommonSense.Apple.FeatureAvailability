@@ -1,10 +1,9 @@
 function Get-iOSFeatureAvailability
 {
-    [CmdletBinding()]
     param
     (
-        [ValidateNotNull()][string[]]$Feature = '*',
-        [ValidateNotNull()][string[]]$Value = '*'
+        [Parameter()][ValidateNotNull()][string[]]$Feature = '*',
+        [Parameter()][ValidateNotNull()][string[]]$Value = '*'
     )
 
     ConvertTo-HtmlDocument -Uri 'https://www.apple.com/ios/feature-availability/'

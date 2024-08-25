@@ -1,10 +1,9 @@
 function Get-MacOSFeatureAvailability
 {
-    [CmdletBinding()]
     param
     (
-        [ValidateNotNull()][string[]]$Feature = '*',
-        [ValidateNotNull()][string[]]$Value = '*'
+        [Parameter()][ValidateNotNull()][string[]]$Feature = '*',
+        [Parameter()][ValidateNotNull()][string[]]$Value = '*'
     )
 
     ConvertTo-HtmlDocument -Uri 'https://www.apple.com/macos/feature-availability/'
